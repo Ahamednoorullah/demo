@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(22, 21, 21);
+}
+
+.container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+#wrapper{
+    border: 3px solid saddlebrown;
+    padding: 1rem;
+    background-color: black;
+    box-shadow: 2px 1px 10px black;
+}
+
+.container span{
+    margin-left: 10px;
+    color: red;
+}
+
+#ampm{
+    font-size: 3rem;
+    align-items: end;
+    color:brown;
+
+}
+
+.container .dot{
+    color: rosybrown;
+}
+.container .dt{
+    font-size: 50px;
+}
